@@ -1,0 +1,94 @@
+		/* Bordered form */
+        
+        html{
+            background: linear-gradient(to bottom, #c5deea 0%,#8abbd7 31%,#066dab 100%)
+        }
+        
+        body{
+            background-color: #81D4FA;
+            background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+           border-width:5px;	
+    }
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 4px;
+    
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 14px 20px;
+        margin-right: -115px;
+        border-radius: 4px;
+
+    background-color: #f44336;
+    width: 30%;
+    
+}
+
+/* Center the avatar image inside this container */
+
+h1{
+        background-color: darkgrey;
+        margin-top: -10px;  
+        border-radius: 10px;
+    font-size: 35px;
+    color: darkblue;
+text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+    border-width:5px;	
+    border-style:outset;
+    border-color: gold;
+        }
+
+/* Avatar image */
+img.avatar {
+    width: 20%;
+	height: 30%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    text-align: center;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+        img.back{
+            
+            margin-left: -66px;
+        }
+        
+        .imgcontainer {
+    text-align: center;
+    margin: 0px 0 12px 0;
+    border-radius: 50px;
+    
+}

@@ -1,0 +1,136 @@
+ /* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    opacity: 0.5;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+body{
+    background-color: aliceblue;
+
+    height: 100%;
+
+
+}
+html{
+
+}
+
+span.menu{
+
+    margin-top: -1em;
+    float: left;
+    position: fixed;
+
+}
+
+
+ul.topnav {
+    list-style-type: none;
+    margin-top:-5px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 5px;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #e4f5fc 0%,#9fd8ef 10%,#2ab0ed 100%);
+    border: 2px inset grey;
+    border-radius: 5px;
+    position: fixed ;
+    left: 33%;
+    height: 30px;
+    width:28em;
+
+
+
+}
+
+/* Float the list items side by side */
+ul.topnav li#m {float: left;}
+ul.topnav li {float: right;}
+
+
+/* Style the links inside the list items */
+ul.topnav li{
+    display: inline-block;
+    color: black;
+    font-style: oblique;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    margin: 0 10px 0 10px;
+
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+span.home{
+    margin-right: 20px;
+    margin-top: -2em;
+    float: right;
+    position: fixed;
+    right: 0%;
+}
+
+span.home:hover {
+    transform: scale(1.2) rotate(5deg);
+    transition: 0.3s;
+}
+span.menu:hover {
+    transform: scale(1.2) rotate(-5deg);
+    transition: 0.3s;
+}
+
+ul li:hover{
+    background: linear-gradient(to bottom, #2ab0ed 30%,#9fd8ef 77%);
+    background: rgba(255,255,255,0.7);
+    transition: 0.3s;
+}

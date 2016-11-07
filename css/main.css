@@ -1,0 +1,113 @@
+
+a.member{
+    
+    float: right;
+    font-family: sans-serif;
+    transition: all 0.3s ease;
+    margin-right: 4em;
+}
+a.member:hover{
+    color:chocolate;
+    transform: scale(1.2);
+}
+
+img.refer{
+    float: left;
+    margin-right: 3em;
+    position: relative;
+}
+
+
+p.refer{
+    font-size: 1.5em;
+    color: blanchedalmond;
+}
+div.refer{
+    background: url(books.jpg);
+    background: rgba(255,255,255,20);
+    border-radius: 20px;
+    border: 1px solid black;
+    height: auto;
+    margin: 5em 0 2.5em 0;
+    overflow: auto;
+    
+
+background: #2980b9; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #2980b9 , #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #2980b9 , #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+img.learn{
+    float: left;
+    margin-right: 3em;
+    position: relative;
+}
+p.learn{
+    font-size: 1.5em;
+        color: blanchedalmond;
+
+}
+
+div.learn{
+    background: url(books.jpg);
+    background: rgba(255,255,255,0.5);
+    border-radius: 20px;
+    border: 1px solid black;
+    height: auto;
+    margin: 2.5em 0 2.5em 0;
+    overflow: auto;
+
+background: #2980b9; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #2980b9 , #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #2980b9 , #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+img.teach{
+    float: left;
+    margin-right: 3em;
+    position: relative;
+}
+
+
+p.teach{
+    font-size: 1.5em;
+        color: blanchedalmond;
+
+}
+div.teach{
+    border-radius: 20px;
+    border: 1px solid black;
+    height: auto;
+    margin: 2.5em 0 5em 0;
+    overflow: auto;
+
+background: #2980b9; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #2980b9 , #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #2980b9 , #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+        
+
+}
+body{
+    margin: 0 5em 0 5em;
+    font-size: 1em;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+
+html{
+    height: 100%;
+}
+
+.content h1{
+    color: burlywood;
+}
+
+a#r_mem{
+    float:right;   
+}
+
+
+
+
