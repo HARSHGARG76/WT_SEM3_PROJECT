@@ -1,5 +1,12 @@
 # Web Technologies Mini Project
 # Project eLearn
+
+### <u>Authors</u>
+<ul style="font-size: 1.5em">
+    <li>Aviral Joshi</li>
+    <li>Ganender</li>
+    <li>Harsh Garg</li>
+</ul>
 <ul>
     <li><h2> Student Teacher Communication Portal</h2></li>
     <li><h2>Book Recommendation System</h2></li>
